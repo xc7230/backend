@@ -23,7 +23,7 @@ def hello():
     conn.commit()
     conn.close()
 
-    result = {"code": 200, "message": rows}
+    result = {"code": 100, "message": rows}
     return result
 
 if __name__ == "__main__":
